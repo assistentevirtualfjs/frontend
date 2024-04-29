@@ -28,4 +28,4 @@ jobs:
       - name: Delect Old Container
         run: docker rm -f reactContainer
       - name: Run Docker Container
-        run: docker run -d -p 3000:8000 --name reactContainer  acelerafjsprojetos/frontendassistente
+        run: docker run -d -p 3000:3000 --name reactContainer  acelerafjsprojetos/frontendassistente
