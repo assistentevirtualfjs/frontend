@@ -1,4 +1,4 @@
-name: Jo-Frontend CI-CD
+name: Jo-Frontend-CI-CD
 on:
   push:
     branches:
