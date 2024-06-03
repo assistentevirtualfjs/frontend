@@ -1,4 +1,4 @@
-name: Assistente CI-CD Workflow AWS
+name: Frontend-CI-CD Workflow
 
 on:
   push:
