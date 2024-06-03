@@ -2,7 +2,7 @@ import axios from "axios";
 import Cookies from "js-cookie";
 
 const API = axios.create({
-  baseURL: "http://18.216.146.127:8000",
+  baseURL: "http://172.31.24.79:8000",
 });
 
 /* // interceptador de solicitação adicionado à instância do axios:
