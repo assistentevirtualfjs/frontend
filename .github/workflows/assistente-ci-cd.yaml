@@ -44,4 +44,4 @@ jobs:
         run: docker rm -f frontend-container 
 
       - name: Deploy Docker Container for Frontend
-        run: docker run -d --name frontend-container --env-file .env -p 3000:80 aceleraprojetosfjs/assistentevirtual-frontend:latest
+        run: docker run -d --name frontend-container -p 3001:80 aceleraprojetosfjs/assistentevirtual-frontend:latest
